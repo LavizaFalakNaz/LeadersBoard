@@ -1,0 +1,82 @@
+body {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  width: 800px;
+}
+
+.main {
+  display: flex;
+  flex-direction: row;
+  vertical-align: middle;
+  justify-items: space-between;
+  align-items: center;
+}
+
+.one {
+  width: 40%;
+  justify-content: left;
+}
+
+.two {
+  width: 60%;
+  display: flex;
+  flex-direction: row;
+  vertical-align: right;
+  align-items: center;
+}
+
+.dochead {
+  vertical-align: left;
+  text-align: left;
+  padding-left: 10px;
+}
+
+a {
+  text-decoration: none;
+  color: green;
+}
+
+a:hover {
+  font-weight: bold;
+  text-shadow: 2px 2px 5px #ddd;
+}
+
+.menuitem {
+  cursor: pointer;
+  font-size: 20px;
+  vertical-align: right;
+  text-align: right;
+  padding-left: 3px;
+  padding-right: 3px;
+  margin-left: 3px;
+  margin-right: 3px;
+  font-weight: bold;
+}
+
+.menuitem:hover {
+  text-shadow: 2px 2px 5px #ddd;
+}
+
+.logout {
+  font-size: 20px;
+  cursor: pointer;
+  justify-self: right;
+  display: inline-block;
+  vertical-align: right;
+  text-align: right;
+  padding-left: 8px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-right: 8px;
+  margin-left: 3px;
+  margin-right: 3px;
+  font-weight: bold;
+  background-color: green;
+  color: white;
+  border-radius: 5px;
+}
+
+.logout:hover {
+  box-shadow: 2px 2px 5px #ddd;
+}
