@@ -1,0 +1,103 @@
+.student {
+  width: 700px;
+  margin: 0 auto;
+  display: block;
+  position: inherit;
+  margin-bottom: 20px;
+  margin-top: 10px;
+}
+
+.left {
+  width: 60%;
+  vertical-align: middle;
+  display: inline-block;
+  text-align: left;
+}
+
+.right {
+  width: 40%;
+  display: inline-block;
+  vertical-align: middle;
+  text-align: right;
+}
+
+h2.studentname {
+  margin: 0px;
+  padding: 0px;
+}
+
+p.universityname {
+  margin: 0px;
+  padding: 0px;
+}
+
+.score {
+  font-size: 30px;
+  font-weight: bold;
+  color: green;
+}
+
+button.AddScore {
+  border: none;
+  background: grey;
+  color: white;
+  border-radius: 100px;
+  width: 17px;
+  padding: 0;
+  cursor: pointer;
+  height: 17px;
+  line-height: 16px;
+  text-align: center;
+  margin-top: -20px;
+  position: relative;
+  top: -3px;
+  left: 7px;
+}
+
+button.AddScore:hover {
+  background: green;
+}
+
+p.universityname .successSpan {
+  background: green;
+  color: white;
+  text-transform: uppercase;
+  font-weight: bold;
+  line-height: 17px;
+  padding-left: 3px;
+  padding-right: 3px;
+  border-radius: 5px;
+}
+
+p.universityname .failureSpan {
+  background: red;
+  color: white;
+  text-transform: uppercase;
+  font-weight: bold;
+  line-height: 17px;
+  padding-left: 3px;
+  padding-right: 3px;
+  border-radius: 5px;
+}
+
+button.SubtractScore {
+  border: none;
+  background: grey;
+  color: white;
+  border-radius: 100px;
+  margin-left: 5px;
+  width: 17px;
+  padding: 0;
+  cursor: pointer;
+  height: 17px;
+  line-height: 16px;
+  text-align: center;
+  margin-top: -20px;
+  position: relative;
+  top: -3px;
+  left: 7px;
+}
+
+button.SubtractScore:hover {
+  background: red;
+}
